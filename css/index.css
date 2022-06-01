@@ -1,0 +1,38 @@
+*, *::before, *::after {
+ box-sizing: border-box;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #E9286A;
+}
+
+h2 {
+  color:#6B53EE;
+  font-size: 40px;
+}
+
+.container {
+  width: 600px;
+  max-width: 80%;
+  background-color: #28E9A7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
